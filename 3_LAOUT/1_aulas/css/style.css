@@ -51,12 +51,15 @@ h1 {
   
   .container {
     border: 2px solid red;
+    background-color: #999;
   }
+
   
   /* aula 5 - .container-fluid*/
   
   .container-fluid {
     border: 2px solid purple;
+    background-color: #888;
   }
   
   /* aula 6 - .container-x*/
@@ -94,7 +97,7 @@ h1 {
   }
   
   /* aula 8 - tamanho colunas */
-  .col-4, .col-2, .col-11, .col-1 {
+  .col-4, .col-2, .col-11, .col-1, .col-6 {
     border: 2px dashed red;
     height: 100%;
     margin: 0;
@@ -102,4 +105,18 @@ h1 {
 
   .largura-limitada{
     max-width: 500px;
+  }
+
+
+  .vertical{
+    height: 250px;
+    border-color: coral;
+  }
+
+  .vertical .row{
+    height: 100%;
+  }
+
+  .col-6{
+    height: 50px;
   }
